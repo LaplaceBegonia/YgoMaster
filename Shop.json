@@ -1,11 +1,11 @@
 {
     "DefaultSecretDuration": 86400,
-    "PutAllCardsInStandardPack": false,
+    "PutAllCardsInStandardPack": true,
     "NoDuplicatesPerPack": true,
     "DisableCardStyleRarity": false,
     "DisableUltraRareGuarantee": false,
     "UpgradeRarityWhenNotFound": true,
-    "UnlockAllSecrets": false,
+    "UnlockAllSecrets": true,
     "SpecialTimePackShops": [],
     "PackShopImages": [
         "CardPackTex01_0000",
@@ -8832,194 +8832,6 @@
                 20253
             ]
         },
-        "10001048": {
-            "nameTextId": "IDS_CARDPACK_ID1048_NAME",
-            "descShortTextId": "IDS_CARDPACK_ID1048_DESC_SHORT",
-            "descFullTextId": "IDS_CARDPACK_ID1048_DESC_FULL",
-            "power": 0,
-            "flexibility": 0,
-            "difficulty": 0,
-            "foundTime": 0,
-            "limitTime": 0,
-            "pack_card_num": 8,
-            "normalCardListId": 10001048,
-            "pickupCardListId": 0,
-            "isFinalizedUR": false,
-            "isSpecialTime": false,
-            "shopId": 10001048,
-            "category": 1,
-            "subCategory": 1,
-            "iconMrk": 19881,
-            "iconType": 2,
-            "iconData": "packthumb1048",
-            "preview": [
-                {
-                    "type": 3,
-                    "path": "packthumb1048"
-                },
-                {
-                    "type": 1,
-                    "mrk": 19881
-                },
-                {
-                    "type": 1,
-                    "mrk": 19502
-                },
-                {
-                    "type": 1,
-                    "mrk": 19628
-                },
-                {
-                    "type": 1,
-                    "mrk": 19633
-                },
-                {
-                    "type": 1,
-                    "mrk": 19076
-                }
-            ],
-            "searchCategory": [],
-            "limitdate_ts": 1733457599,
-            "limit_buy_count": 0,
-            "productType": 1,
-            "targetCategory": 2,
-            "targetId": 1048,
-            "targetPeriodFlag": false,
-            "sort": 1728534600,
-            "now_buy_count": 0,
-            "limitdate": "2024/12/6\u00a011:59",
-            "limitdate_short": "12/6\u00a011:59",
-            "prices": {
-                "1": {
-                    "price_id": 1,
-                    "item_category": 1,
-                    "item_id": 1,
-                    "special_flag": 0,
-                    "button_type": 1,
-                    "use_item_num": 100,
-                    "buy_count": 1,
-                    "buy_count_array": 0,
-                    "textId": "IDS_SHOP_BUY_BUTTON_CARDPACK_SINGLE",
-                    "textArgs": [],
-                    "sort": 1,
-                    "confirm_reg_id": 0
-                },
-                "2": {
-                    "price_id": 2,
-                    "item_category": 1,
-                    "item_id": 1,
-                    "special_flag": 0,
-                    "button_type": 2,
-                    "use_item_num": 1000,
-                    "buy_count": 1,
-                    "buy_count_array": 0,
-                    "textId": "IDS_SHOP_BUY_BUTTON_CARDPACK_MULTI",
-                    "textArgs": [
-                        10
-                    ],
-                    "POP": "IDS_SHOP_BUY_BUTTON_ADS_CARDPACK_10_SR",
-                    "POPArgs": [
-                        10,
-                        3,
-                        1
-                    ],
-                    "sort": 2,
-                    "confirm_reg_id": 0
-                }
-            },
-            "list_button_key": "1",
-            "list_button_type": 0,
-            "isNew": false,
-            "confirm_text_id": [],
-            "duellive": "duellivemenu:push/withshop?shop_id=10001048",
-            "cardList": [
-                6280,
-                8195,
-                8930,
-                9760,
-                9965,
-                10068,
-                10436,
-                11492,
-                11493,
-                11494,
-                11495,
-                11496,
-                11499,
-                11500,
-                11501,
-                11533,
-                11534,
-                11535,
-                11536,
-                11537,
-                11538,
-                11549,
-                11578,
-                11591,
-                11592,
-                11594,
-                11705,
-                11706,
-                11707,
-                11748,
-                11823,
-                11847,
-                12047,
-                12052,
-                12348,
-                12761,
-                12799,
-                12811,
-                13825,
-                13981,
-                14070,
-                17450,
-                17747,
-                18174,
-                18453,
-                19076,
-                19081,
-                19411,
-                19412,
-                19414,
-                19463,
-                19464,
-                19465,
-                19466,
-                19480,
-                19485,
-                19498,
-                19502,
-                19503,
-                19515,
-                19516,
-                19526,
-                19530,
-                19542,
-                19627,
-                19628,
-                19629,
-                19630,
-                19631,
-                19632,
-                19633,
-                19634,
-                19857,
-                19858,
-                19859,
-                19880,
-                19881,
-                19885,
-                19900,
-                19901,
-                19910,
-                19914,
-                20198,
-                20207,
-                20252
-            ]
-        },
         "10001049": {
             "nameTextId": "IDS_CARDPACK_ID1049_NAME",
             "descShortTextId": "IDS_CARDPACK_ID1049_DESC_SHORT",
@@ -9254,10 +9066,6 @@
                     "mrk": 19870
                 }
             ],
-            "decoration": {
-                "highlightStyleType": 1,
-                "bgId": 8
-            },
             "searchCategory": [],
             "limitdate_ts": 1736395199,
             "limit_buy_count": 0,
@@ -9312,7 +9120,6 @@
             "isNew": false,
             "confirm_text_id": [],
             "duellive": "duellivemenu:push/withshop?shop_id=10001051",
-            "is_pickup": true,
             "cardList": [
                 4791,
                 10151,
@@ -9399,6 +9206,392 @@
                 20230,
                 20248,
                 20256
+            ]
+        },
+        "10001052": {
+            "nameTextId": "IDS_CARDPACK_ID1052_NAME",
+            "descShortTextId": "IDS_CARDPACK_ID1052_DESC_SHORT",
+            "descFullTextId": "IDS_CARDPACK_ID1052_DESC_FULL",
+            "power": 0,
+            "flexibility": 0,
+            "difficulty": 0,
+            "foundTime": 0,
+            "limitTime": 0,
+            "pack_card_num": 8,
+            "normalCardListId": 10001052,
+            "pickupCardListId": 0,
+            "isFinalizedUR": false,
+            "isSpecialTime": false,
+            "shopId": 10001052,
+            "category": 1,
+            "subCategory": 1,
+            "iconMrk": 20222,
+            "iconType": 2,
+            "iconData": "packthumb1052",
+            "preview": [
+                {
+                    "type": 3,
+                    "path": "packthumb1052"
+                },
+                {
+                    "type": 1,
+                    "mrk": 20222
+                },
+                {
+                    "type": 1,
+                    "mrk": 20219
+                },
+                {
+                    "type": 1,
+                    "mrk": 19853
+                },
+                {
+                    "type": 1,
+                    "mrk": 20295
+                },
+                {
+                    "type": 1,
+                    "mrk": 20231
+                }
+            ],
+            "decoration": {
+                "highlightStyleType": 1,
+                "bgId": 8
+            },
+            "searchCategory": [],
+            "limitdate_ts": 1738814399,
+            "limit_buy_count": 0,
+            "productType": 1,
+            "targetCategory": 2,
+            "targetId": 1052,
+            "targetPeriodFlag": false,
+            "sort": 1733459400,
+            "now_buy_count": 0,
+            "limitdate": "2025/2/6\u00a011:59",
+            "limitdate_short": "2/6\u00a011:59",
+            "prices": {
+                "1": {
+                    "price_id": 1,
+                    "item_category": 1,
+                    "item_id": 1,
+                    "special_flag": 0,
+                    "button_type": 1,
+                    "use_item_num": 100,
+                    "buy_count": 1,
+                    "buy_count_array": 0,
+                    "textId": "IDS_SHOP_BUY_BUTTON_CARDPACK_SINGLE",
+                    "textArgs": [],
+                    "sort": 1,
+                    "confirm_reg_id": 0
+                },
+                "2": {
+                    "price_id": 2,
+                    "item_category": 1,
+                    "item_id": 1,
+                    "special_flag": 0,
+                    "button_type": 2,
+                    "use_item_num": 1000,
+                    "buy_count": 1,
+                    "buy_count_array": 0,
+                    "textId": "IDS_SHOP_BUY_BUTTON_CARDPACK_MULTI",
+                    "textArgs": [
+                        10
+                    ],
+                    "POP": "IDS_SHOP_BUY_BUTTON_ADS_CARDPACK_10_SR",
+                    "POPArgs": [
+                        10,
+                        3,
+                        1
+                    ],
+                    "sort": 2,
+                    "confirm_reg_id": 0
+                }
+            },
+            "list_button_key": "1",
+            "list_button_type": 0,
+            "isNew": false,
+            "confirm_text_id": [],
+            "duellive": "duellivemenu:push/withshop?shop_id=10001052",
+            "is_pickup": true,
+            "cardList": [
+                5234,
+                9370,
+                9371,
+                9950,
+                10232,
+                10447,
+                10448,
+                10454,
+                10682,
+                10692,
+                10694,
+                11007,
+                11016,
+                11431,
+                11432,
+                11753,
+                12494,
+                13045,
+                13046,
+                13220,
+                13260,
+                13343,
+                13512,
+                13513,
+                13555,
+                13563,
+                13592,
+                13608,
+                14110,
+                14126,
+                14135,
+                14136,
+                14525,
+                14596,
+                14597,
+                14598,
+                14600,
+                14787,
+                14868,
+                14883,
+                15770,
+                17728,
+                18453,
+                19148,
+                19196,
+                19826,
+                19827,
+                19828,
+                19853,
+                19915,
+                19916,
+                20186,
+                20187,
+                20188,
+                20192,
+                20193,
+                20194,
+                20195,
+                20217,
+                20218,
+                20219,
+                20221,
+                20222,
+                20231,
+                20235,
+                20237,
+                20238,
+                20239,
+                20243,
+                20249,
+                20250,
+                20258,
+                20291,
+                20292,
+                20293,
+                20294,
+                20295,
+                20296,
+                20297,
+                20403,
+                20404,
+                20419,
+                20420,
+                20421,
+                20532
+            ]
+        },
+        "10001053": {
+            "nameTextId": "IDS_CARDPACK_ID1053_NAME",
+            "descShortTextId": "IDS_CARDPACK_ID1053_DESC_SHORT",
+            "descFullTextId": "IDS_CARDPACK_ID1053_DESC_FULL",
+            "power": 0,
+            "flexibility": 0,
+            "difficulty": 0,
+            "foundTime": 0,
+            "limitTime": 0,
+            "pack_card_num": 8,
+            "normalCardListId": 10001053,
+            "pickupCardListId": 0,
+            "isFinalizedUR": false,
+            "isSpecialTime": false,
+            "shopId": 10001053,
+            "category": 1,
+            "subCategory": 1,
+            "iconMrk": 14952,
+            "iconType": 2,
+            "iconData": "packthumb1053",
+            "preview": [
+                {
+                    "type": 3,
+                    "path": "packthumb1053"
+                },
+                {
+                    "type": 1,
+                    "mrk": 14952
+                },
+                {
+                    "type": 1,
+                    "mrk": 12938
+                },
+                {
+                    "type": 1,
+                    "mrk": 14297
+                },
+                {
+                    "type": 1,
+                    "mrk": 14285
+                },
+                {
+                    "type": 1,
+                    "mrk": 13597
+                }
+            ],
+            "decoration": {
+                "highlightStyleType": 1,
+                "bgId": 8
+            },
+            "searchCategory": [],
+            "limitdate_ts": 1738814399,
+            "limit_buy_count": 0,
+            "productType": 1,
+            "targetCategory": 2,
+            "targetId": 1053,
+            "targetPeriodFlag": false,
+            "sort": 1733459400,
+            "now_buy_count": 0,
+            "limitdate": "2025/2/6\u00a011:59",
+            "limitdate_short": "2/6\u00a011:59",
+            "prices": {
+                "1": {
+                    "price_id": 1,
+                    "item_category": 1,
+                    "item_id": 1,
+                    "special_flag": 0,
+                    "button_type": 1,
+                    "use_item_num": 100,
+                    "buy_count": 1,
+                    "buy_count_array": 0,
+                    "textId": "IDS_SHOP_BUY_BUTTON_CARDPACK_SINGLE",
+                    "textArgs": [],
+                    "sort": 1,
+                    "confirm_reg_id": 0
+                },
+                "2": {
+                    "price_id": 2,
+                    "item_category": 1,
+                    "item_id": 1,
+                    "special_flag": 0,
+                    "button_type": 2,
+                    "use_item_num": 1000,
+                    "buy_count": 1,
+                    "buy_count_array": 0,
+                    "textId": "IDS_SHOP_BUY_BUTTON_CARDPACK_MULTI",
+                    "textArgs": [
+                        10
+                    ],
+                    "POP": "IDS_SHOP_BUY_BUTTON_ADS_CARDPACK_10_SR",
+                    "POPArgs": [
+                        10,
+                        3,
+                        1
+                    ],
+                    "sort": 2,
+                    "confirm_reg_id": 0
+                }
+            },
+            "list_button_key": "1",
+            "list_button_type": 0,
+            "isNew": false,
+            "confirm_text_id": [],
+            "duellive": "duellivemenu:push/withshop?shop_id=10001053",
+            "is_pickup": true,
+            "cardList": [
+                4088,
+                6109,
+                7423,
+                7982,
+                11167,
+                11805,
+                11806,
+                11832,
+                11838,
+                11843,
+                11856,
+                11891,
+                11892,
+                11894,
+                11895,
+                11898,
+                11899,
+                11929,
+                12424,
+                12611,
+                12650,
+                12754,
+                12934,
+                12935,
+                12936,
+                12937,
+                12938,
+                12939,
+                12940,
+                12967,
+                12968,
+                12969,
+                12983,
+                12984,
+                13030,
+                13171,
+                13385,
+                13386,
+                13387,
+                13388,
+                13389,
+                13427,
+                13428,
+                13442,
+                13443,
+                13597,
+                13598,
+                13599,
+                13600,
+                13602,
+                13613,
+                13626,
+                13901,
+                13902,
+                13903,
+                13904,
+                13930,
+                13931,
+                13932,
+                13944,
+                13945,
+                13946,
+                14090,
+                14091,
+                14092,
+                14097,
+                14098,
+                14129,
+                14139,
+                14150,
+                14267,
+                14268,
+                14282,
+                14285,
+                14297,
+                14324,
+                14742,
+                14952,
+                15010,
+                15022,
+                15557,
+                16516,
+                17388,
+                18034,
+                18214
             ]
         },
         "10002001": {
@@ -19755,7 +19948,6 @@
             "list_button_type": 0,
             "isNew": false,
             "confirm_text_id": [],
-            "is_pickup": true,
             "cardList": [
                 3415,
                 3437,
@@ -27213,9 +27405,7 @@
             ],
             "decoration": {
                 "informButton": "secret_pack_alt",
-                "headLabelText": "IDS_SHOP_UPDATE_LABEL",
-                "highlightStyleType": 1,
-                "bgId": 8
+                "headLabelText": "IDS_SHOP_UPDATE_LABEL"
             },
             "searchCategory": [
                 123,
@@ -27274,7 +27464,6 @@
             "list_button_type": 0,
             "isNew": false,
             "confirm_text_id": [],
-            "is_pickup": true,
             "cardList": [
                 3415,
                 12067,
@@ -30421,8 +30610,8 @@
             "power": 4,
             "flexibility": 3,
             "difficulty": 3,
-            "foundTime": 1722893525,
-            "limitTime": 1722981096,
+            "foundTime": 1733487392,
+            "limitTime": 1733573792,
             "pack_card_num": 8,
             "normalCardListId": 10000001,
             "pickupCardListId": 10002150,
@@ -30464,7 +30653,7 @@
                 288,
                 317
             ],
-            "limitdate_ts": 1722981096,
+            "limitdate_ts": 1733573792,
             "limit_buy_count": 0,
             "productType": 1,
             "targetCategory": 3,
@@ -30512,8 +30701,8 @@
             },
             "list_button_key": "1",
             "list_button_type": 0,
-            "limitdate": "8 6 2024\u00a013:51",
-            "limitdate_short": "8 6\u00a013:51",
+            "limitdate": "2024/12/7\u00a020:16",
+            "limitdate_short": "12/7\u00a020:16",
             "isNew": false,
             "confirm_text_id": [],
             "cardList": [
@@ -35608,6 +35797,150 @@
                 20256
             ]
         },
+        "10002189": {
+            "nameTextId": "IDS_CARDPACK_ID2189_NAME",
+            "descShortTextId": "IDS_CARDPACK_ID2189_DESC_SHORT",
+            "descFullTextId": "IDS_CARDPACK_ID2189_DESC_FULL",
+            "power": 0,
+            "flexibility": 0,
+            "difficulty": 0,
+            "foundTime": 1733459400,
+            "limitTime": 1736395199,
+            "pack_card_num": 8,
+            "normalCardListId": 10000001,
+            "pickupCardListId": 10002189,
+            "isFinalizedUR": false,
+            "isSpecialTime": true,
+            "shopId": 10102189,
+            "category": 1,
+            "subCategory": 2,
+            "iconMrk": 12938,
+            "iconType": 1,
+            "iconData": "12938",
+            "preview": [
+                {
+                    "type": 1,
+                    "mrk": 12938
+                },
+                {
+                    "type": 1,
+                    "mrk": 12419
+                },
+                {
+                    "type": 1,
+                    "mrk": 17778
+                },
+                {
+                    "type": 1,
+                    "mrk": 17779
+                },
+                {
+                    "type": 1,
+                    "mrk": 12967
+                }
+            ],
+            "decoration": {
+                "highlightStyleType": 1,
+                "headLabelText": "IDS_SHOP_NEW_LABEL",
+                "bgId": 8
+            },
+            "searchCategory": [],
+            "limitdate_ts": 1736395199,
+            "limit_buy_count": 0,
+            "productType": 1,
+            "targetCategory": 3,
+            "targetId": 2189,
+            "targetPeriodFlag": false,
+            "sort": 1733459400,
+            "now_buy_count": 0,
+            "limitdate": "2025/1/9\u00a011:59",
+            "limitdate_short": "1/9\u00a011:59",
+            "prices": {
+                "1": {
+                    "price_id": 1,
+                    "item_category": 1,
+                    "item_id": 1,
+                    "special_flag": 0,
+                    "button_type": 1,
+                    "use_item_num": 100,
+                    "buy_count": 1,
+                    "buy_count_array": 0,
+                    "textId": "IDS_SHOP_BUY_BUTTON_CARDPACK_SINGLE",
+                    "textArgs": [],
+                    "sort": 1,
+                    "confirm_reg_id": 0
+                },
+                "2": {
+                    "price_id": 2,
+                    "item_category": 1,
+                    "item_id": 1,
+                    "special_flag": 0,
+                    "button_type": 2,
+                    "use_item_num": 1000,
+                    "buy_count": 1,
+                    "buy_count_array": 0,
+                    "textId": "IDS_SHOP_BUY_BUTTON_CARDPACK_MULTI",
+                    "textArgs": [
+                        10
+                    ],
+                    "POP": "IDS_SHOP_BUY_BUTTON_ADS_CARDPACK_10_SR",
+                    "POPArgs": [
+                        10,
+                        3,
+                        1
+                    ],
+                    "sort": 2,
+                    "confirm_reg_id": 0
+                }
+            },
+            "list_button_key": "1",
+            "list_button_type": 0,
+            "isNew": false,
+            "confirm_text_id": [],
+            "is_pickup": true,
+            "cardList": [
+                10523,
+                10775,
+                11252,
+                11786,
+                11809,
+                11850,
+                12169,
+                12295,
+                12296,
+                12299,
+                12300,
+                12302,
+                12303,
+                12316,
+                12334,
+                12335,
+                12351,
+                12419,
+                12424,
+                12611,
+                12754,
+                12934,
+                12935,
+                12936,
+                12937,
+                12938,
+                12939,
+                12940,
+                12967,
+                12968,
+                12969,
+                12983,
+                12984,
+                12993,
+                16219,
+                17440,
+                17778,
+                17779,
+                17780,
+                17820
+            ]
+        },
         "10003001": {
             "nameTextId": "IDS_CARDPACK_ID3001_NAME",
             "descShortTextId": "IDS_CARDPACK_ID3001_DESC_SHORT",
@@ -35798,26 +36131,52 @@
             "sort": 1609426800,
             "now_buy_count": 0,
             "prices": {
-                "7": {
+                "7_10": {
                     "price_id": 7,
                     "item_category": 14,
                     "item_id": 1140001,
                     "special_flag": 0,
-                    "item_have": 3,
+                    "item_have": 21,
                     "is_special": false,
                     "is_ticket": true,
                     "button_type": 1,
-                    "use_item_num": 3,
-                    "buy_count": 3,
-                    "buy_count_array": 0,
+                    "use_item_num": 10,
+                    "buy_count": 10,
+                    "buy_count_array": [
+                        10,
+                        20
+                    ],
                     "textId": "IDS_SHOP_BUY_BUTTON_CARDPACK_MULTI",
                     "textArgs": [
-                        3
+                        10
                     ],
-                    "sort": 1
+                    "sort": 1,
+                    "half_button": true
+                },
+                "7_20": {
+                    "price_id": 7,
+                    "item_category": 14,
+                    "item_id": 1140001,
+                    "special_flag": 0,
+                    "item_have": 21,
+                    "is_special": false,
+                    "is_ticket": true,
+                    "button_type": 1,
+                    "use_item_num": 20,
+                    "buy_count": 20,
+                    "buy_count_array": [
+                        10,
+                        20
+                    ],
+                    "textId": "IDS_SHOP_BUY_BUTTON_CARDPACK_MULTI",
+                    "textArgs": [
+                        20
+                    ],
+                    "sort": 1,
+                    "half_button": true
                 }
             },
-            "list_button_key": "7",
+            "list_button_key": "7_20",
             "list_button_type": 0,
             "isNew": false,
             "confirm_text_id": [],
@@ -44951,6 +45310,56 @@
             "isNew": false,
             "confirm_text_id": []
         },
+        "31010087": {
+            "itemId": 1010087,
+            "max": 1,
+            "have": 0,
+            "shopId": 31010087,
+            "category": 3,
+            "subCategory": 4,
+            "iconMrk": 0,
+            "iconType": 3,
+            "iconData": "productthumb_profileIcon_L?id=1010087",
+            "preview": [
+                {
+                    "type": 3,
+                    "path": "productthumb_profileIcon_S?id=1010087",
+                    "isPref": true
+                }
+            ],
+            "decoration": {
+                "highlightStyleType": 1,
+                "bgId": 8
+            },
+            "searchCategory": [],
+            "limitdate_ts": 0,
+            "limit_buy_count": 1,
+            "productType": 3,
+            "targetCategory": 4,
+            "targetId": 1010087,
+            "targetPeriodFlag": false,
+            "sort": 1733459400,
+            "now_buy_count": 0,
+            "prices": {
+                "20": {
+                    "price_id": 20,
+                    "item_category": 1,
+                    "item_id": 1,
+                    "special_flag": 0,
+                    "button_type": 1,
+                    "use_item_num": 50,
+                    "buy_count": 1,
+                    "sort": 1,
+                    "confirm_reg_id": 0
+                }
+            },
+            "list_button_key": "20",
+            "list_button_type": 0,
+            "isNew": true,
+            "confirm_text_id": [],
+            "is_pickup": true,
+            "sendNew": true
+        },
         "31030014": {
             "itemId": 1030014,
             "max": 1,
@@ -48644,6 +49053,61 @@
             "isNew": false,
             "confirm_text_id": []
         },
+        "31070098": {
+            "itemId": 1070098,
+            "max": 1,
+            "have": 0,
+            "shopId": 31070098,
+            "category": 3,
+            "subCategory": 3,
+            "iconMrk": 0,
+            "iconType": 3,
+            "iconData": "productthumb_protector?id=1070098",
+            "preview": [
+                {
+                    "type": 3,
+                    "path": "productthumb_protector?id=1070098",
+                    "isPref": true
+                },
+                {
+                    "type": 3,
+                    "path": "productthumb_ProtectorPreview?id=1070098",
+                    "isPref": true
+                }
+            ],
+            "decoration": {
+                "highlightStyleType": 1,
+                "bgId": 8
+            },
+            "searchCategory": [],
+            "limitdate_ts": 0,
+            "limit_buy_count": 1,
+            "productType": 3,
+            "targetCategory": 7,
+            "targetId": 1070098,
+            "targetPeriodFlag": false,
+            "sort": 1733459400,
+            "now_buy_count": 0,
+            "prices": {
+                "1": {
+                    "price_id": 1,
+                    "item_category": 1,
+                    "item_id": 1,
+                    "special_flag": 0,
+                    "button_type": 1,
+                    "use_item_num": 100,
+                    "buy_count": 1,
+                    "sort": 1,
+                    "confirm_reg_id": 0
+                }
+            },
+            "list_button_key": "1",
+            "list_button_type": 0,
+            "isNew": true,
+            "confirm_text_id": [],
+            "is_pickup": true,
+            "sendNew": true
+        },
         "31072001": {
             "itemId": 1072001,
             "max": 1,
@@ -51548,6 +52012,60 @@
             "isNew": false,
             "confirm_text_id": []
         },
+        "31111043": {
+            "itemId": 1111043,
+            "max": 1,
+            "have": 0,
+            "shopId": 31111043,
+            "category": 3,
+            "subCategory": 2,
+            "iconMrk": 0,
+            "iconType": 3,
+            "iconData": "productthumb_fieldMateBase?id=1111043",
+            "preview": [
+                {
+                    "type": 3,
+                    "path": "productthumb_fieldMateBase?id=1111043",
+                    "isPref": true
+                },
+                {
+                    "type": 3,
+                    "path": "thumb1111043_02"
+                }
+            ],
+            "decoration": {
+                "highlightStyleType": 1,
+                "bgId": 8
+            },
+            "searchCategory": [],
+            "limitdate_ts": 0,
+            "limit_buy_count": 1,
+            "productType": 3,
+            "targetCategory": 11,
+            "targetId": 1111043,
+            "targetPeriodFlag": false,
+            "sort": 1733459400,
+            "now_buy_count": 0,
+            "prices": {
+                "1111": {
+                    "price_id": 1111,
+                    "item_category": 1,
+                    "item_id": 1,
+                    "special_flag": 0,
+                    "button_type": 1,
+                    "use_item_num": 100,
+                    "buy_count": 1,
+                    "sort": 1,
+                    "confirm_reg_id": 0
+                }
+            },
+            "list_button_key": "1111",
+            "list_button_type": 0,
+            "isNew": true,
+            "confirm_text_id": [],
+            "is_pickup": true,
+            "sendNew": true
+        },
         "31111045": {
             "itemId": 1111045,
             "max": 1,
@@ -51569,10 +52087,6 @@
                     "path": "thumb1111045_02"
                 }
             ],
-            "decoration": {
-                "highlightStyleType": 1,
-                "bgId": 8
-            },
             "searchCategory": [],
             "limitdate_ts": 0,
             "limit_buy_count": 1,
@@ -51598,8 +52112,7 @@
             "list_button_key": "1111",
             "list_button_type": 0,
             "isNew": false,
-            "confirm_text_id": [],
-            "is_pickup": true
+            "confirm_text_id": []
         },
         "31130003": {
             "itemId": 1130003,
@@ -52652,6 +53165,55 @@
                     "isPref": true
                 }
             ],
+            "searchCategory": [],
+            "limitdate_ts": 0,
+            "limit_buy_count": 1,
+            "productType": 3,
+            "targetCategory": 13,
+            "targetId": 1130056,
+            "targetPeriodFlag": false,
+            "sort": 1731902400,
+            "now_buy_count": 0,
+            "prices": {
+                "1130": {
+                    "price_id": 1130,
+                    "item_category": 1,
+                    "item_id": 1,
+                    "special_flag": 0,
+                    "button_type": 1,
+                    "use_item_num": 250,
+                    "buy_count": 1,
+                    "sort": 1,
+                    "confirm_reg_id": 0
+                }
+            },
+            "list_button_key": "1130",
+            "list_button_type": 0,
+            "isNew": false,
+            "confirm_text_id": []
+        },
+        "31130058": {
+            "itemId": 1130058,
+            "max": 1,
+            "have": 0,
+            "shopId": 31130058,
+            "category": 3,
+            "subCategory": 5,
+            "iconMrk": 0,
+            "iconType": 3,
+            "iconData": "productthumb_wallpaper_S?id=1130058",
+            "preview": [
+                {
+                    "type": 3,
+                    "path": "productthumb_wallpaper?id=1130058",
+                    "isPref": true
+                },
+                {
+                    "type": 3,
+                    "path": "productthumb_wallpaper_profile?id=1130058",
+                    "isPref": true
+                }
+            ],
             "decoration": {
                 "highlightStyleType": 1,
                 "bgId": 8
@@ -52661,9 +53223,9 @@
             "limit_buy_count": 1,
             "productType": 3,
             "targetCategory": 13,
-            "targetId": 1130056,
+            "targetId": 1130058,
             "targetPeriodFlag": false,
-            "sort": 1731902400,
+            "sort": 1733459400,
             "now_buy_count": 0,
             "prices": {
                 "1130": {
